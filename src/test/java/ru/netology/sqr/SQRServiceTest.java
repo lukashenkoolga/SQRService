@@ -14,7 +14,7 @@ class SQRServiceTest {
         int past = 300;
         int expected = 3;
 
-        int actual = service.squaresCalculate( from,  past);
+        int actual = service.squaresCalculate(from, past);
 
         assertEquals(expected, actual);
     }
@@ -27,7 +27,7 @@ class SQRServiceTest {
         int past = 300;
         int expected = 8;
 
-        int actual = service.squaresCalculate( from,  past);
+        int actual = service.squaresCalculate(from, past);
 
         assertEquals(expected, actual);
     }
@@ -40,7 +40,7 @@ class SQRServiceTest {
         int past = 9801;
         int expected = 75;
 
-        int actual = service.squaresCalculate( from,  past);
+        int actual = service.squaresCalculate(from, past);
 
         assertEquals(expected, actual);
     }
@@ -53,7 +53,7 @@ class SQRServiceTest {
         int past = 120;
         int expected = 0;
 
-        int actual = service.squaresCalculate( from,  past);
+        int actual = service.squaresCalculate(from, past);
 
         assertEquals(expected, actual);
     }
@@ -66,7 +66,7 @@ class SQRServiceTest {
         int past = 9801;
         int expected = 90;
 
-        int actual = service.squaresCalculate( from,  past);
+        int actual = service.squaresCalculate(from, past);
 
         assertEquals(expected, actual);
     }
